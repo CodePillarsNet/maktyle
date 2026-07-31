@@ -72,6 +72,10 @@ const colorOptions = [
   },
 ];
 
+const rating = (Math.random() * (4.9 - 4.6) + 4.6).toFixed(1);
+
+const reviewCount = Math.floor(Math.random() * (599 - 399 + 1)) + 399;
+
 export default function ProductDetailsClient({
   product,isFavorite
 }: ProductDetailsClientProps) {
@@ -246,8 +250,10 @@ export default function ProductDetailsClient({
             </div>
 
             <span className="text-sm text-slate-500">
-              4.8 · 512 reviews
-            </span>
+    <span className="font-semibold text-slate-900">{rating}</span>
+    {" • "}
+    {reviewCount.toLocaleString()} Reviews
+  </span>
           </div>
 
           <div className="mt-5 flex flex-wrap items-center gap-3">

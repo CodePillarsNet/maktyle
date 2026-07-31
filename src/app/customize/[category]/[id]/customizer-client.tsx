@@ -239,14 +239,14 @@ function getFrameOptions(
         thumbnailShape: "rounded",
         printArea: { x: 18, y: 18, width: 284, height: 604, radius: 42 },
       }),
-      option("clear", "Clear", 80, {
+      option("clear", "Clear", 0, {
         width: 320,
         height: 640,
         radius: 48,
         thumbnailShape: "rounded",
         printArea: { x: 18, y: 18, width: 284, height: 604, radius: 42 },
       }),
-      option("magsafe", "MagSafe", 150, {
+      option("magsafe", "MagSafe", 0, {
         width: 320,
         height: 640,
         radius: 48,
@@ -265,14 +265,14 @@ function getFrameOptions(
         thumbnailShape: "shirt",
         printArea: { x: 110, y: 135, width: 300, height: 350, radius: 10 },
       }),
-      option("back", "Back", 50, {
+      option("back", "Back", 0, {
         width: 520,
         height: 620,
         radius: 22,
         thumbnailShape: "shirt",
         printArea: { x: 110, y: 120, width: 300, height: 370, radius: 10 },
       }),
-      option("pocket", "Pocket", 30, {
+      option("pocket", "Pocket", 0, {
         width: 520,
         height: 620,
         radius: 22,
@@ -298,7 +298,7 @@ function getFrameOptions(
         thumbnailShape: "mug",
         printArea: { x: 105, y: 105, width: 270, height: 205, radius: 18 },
       }),
-      option("wrap", "Full Wrap", 100, {
+      option("wrap", "Full Wrap", 0, {
         width: 620,
         height: 420,
         radius: 28,
@@ -317,7 +317,7 @@ function getFrameOptions(
         thumbnailShape: "bottle",
         printArea: { x: 84, y: 135, width: 192, height: 380, radius: 28 },
       }),
-      option("wide", "Wide", 60, {
+      option("wide", "Wide", 0, {
         width: 390,
         height: 620,
         radius: 38,
@@ -336,7 +336,7 @@ function getFrameOptions(
         thumbnailShape: "square",
         printArea: { x: 45, y: 45, width: 470, height: 470, radius: 48 },
       }),
-      option("heart", "Heart", 100, {
+      option("heart", "Heart", 0, {
         width: 560,
         height: 560,
         radius: 20,
@@ -351,7 +351,7 @@ function getFrameOptions(
             "polygon(50% 92%, 8% 52%, 5% 30%, 16% 12%, 35% 8%, 50% 23%, 65% 8%, 84% 12%, 95% 30%, 92% 52%)",
         },
       }),
-      option("round", "Round", 80, {
+      option("round", "Round", 0, {
         width: 560,
         height: 560,
         radius: 280,
@@ -384,7 +384,7 @@ function getFrameOptions(
           clipPath: "circle(50% at 50% 50%)",
         },
       }),
-      option("heart", "Heart", 40, {
+      option("heart", "Heart", 0, {
         width: 460,
         height: 460,
         radius: 20,
@@ -399,7 +399,7 @@ function getFrameOptions(
             "polygon(50% 95%, 8% 55%, 4% 31%, 15% 10%, 35% 7%, 50% 22%, 65% 7%, 85% 10%, 96% 31%, 92% 55%)",
         },
       }),
-      option("rectangle", "Rectangle", 30, {
+      option("rectangle", "Rectangle", 0, {
         width: 500,
         height: 360,
         radius: 35,
@@ -426,7 +426,7 @@ function getFrameOptions(
             "polygon(50% 96%, 7% 55%, 4% 30%, 16% 9%, 35% 6%, 50% 22%, 65% 6%, 84% 9%, 96% 30%, 93% 55%)",
         },
       }),
-      option("circle", "Circle", 50, {
+      option("circle", "Circle", 0, {
         width: 500,
         height: 620,
         radius: 34,
@@ -440,14 +440,14 @@ function getFrameOptions(
           clipPath: "circle(50% at 50% 50%)",
         },
       }),
-      option("square", "Square", 50, {
+      option("square", "Square", 0, {
         width: 500,
         height: 620,
         radius: 34,
         thumbnailShape: "square",
         printArea: { x: 72, y: 55, width: 356, height: 410, radius: 28 },
       }),
-      option("hexagon", "Hexagon", 80, {
+      option("hexagon", "Hexagon", 0, {
         width: 500,
         height: 620,
         radius: 34,
@@ -462,7 +462,7 @@ function getFrameOptions(
             "polygon(25% 4%, 75% 4%, 100% 50%, 75% 96%, 25% 96%, 0% 50%)",
         },
       }),
-      option("star", "Star", 100, {
+      option("star", "Star", 0, {
         width: 500,
         height: 620,
         radius: 34,
@@ -477,7 +477,7 @@ function getFrameOptions(
             "polygon(50% 1%, 61% 35%, 98% 35%, 68% 57%, 79% 94%, 50% 72%, 21% 94%, 32% 57%, 2% 35%, 39% 35%)",
         },
       }),
-      option("moon", "Moon", 120, {
+      option("moon", "Moon", 0, {
         width: 500,
         height: 620,
         radius: 34,
@@ -492,7 +492,7 @@ function getFrameOptions(
             "polygon(72% 0%, 51% 12%, 38% 32%, 34% 54%, 42% 76%, 60% 92%, 82% 100%, 63% 96%, 43% 86%, 25% 68%, 15% 46%, 17% 25%, 33% 8%, 52% 1%)",
         },
       }),
-      option("butterfly", "Butterfly", 140, {
+      option("butterfly", "Butterfly", 0, {
         width: 520,
         height: 620,
         radius: 34,
@@ -507,7 +507,7 @@ function getFrameOptions(
             "polygon(50% 34%, 37% 8%, 8% 0%, 2% 28%, 20% 52%, 5% 82%, 35% 76%, 50% 98%, 65% 76%, 95% 82%, 80% 52%, 98% 28%, 92% 0%, 63% 8%)",
         },
       }),
-      option("tree", "Tree", 150, {
+      option("tree", "Tree", 0, {
         width: 500,
         height: 620,
         radius: 34,
@@ -533,21 +533,21 @@ function getFrameOptions(
       thumbnailShape: "portrait",
       printArea: { x: 55, y: 55, width: 410, height: 590, radius: 4 },
     }),
-    option("landscape", "Landscape", 80, {
+    option("landscape", "Landscape", 0, {
       width: 700,
       height: 520,
       radius: 20,
       thumbnailShape: "landscape",
       printArea: { x: 55, y: 55, width: 590, height: 410, radius: 4 },
     }),
-    option("square", "Square", 50, {
+    option("square", "Square", 0, {
       width: 580,
       height: 580,
       radius: 20,
       thumbnailShape: "square",
       printArea: { x: 55, y: 55, width: 470, height: 470, radius: 4 },
     }),
-    option("circle", "Circle", 100, {
+    option("circle", "Circle", 0, {
       width: 580,
       height: 580,
       radius: 290,
@@ -561,7 +561,7 @@ function getFrameOptions(
         clipPath: "circle(50% at 50% 50%)",
       },
     }),
-    option("heart", "Heart", 130, {
+    option("heart", "Heart", 0, {
       width: 580,
       height: 580,
       radius: 20,
