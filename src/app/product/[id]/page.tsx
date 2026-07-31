@@ -160,7 +160,7 @@ export default async function ProductDetailsPage({
     .order("created_at", {
       ascending: false,
     })
-    .limit(5);
+    .limit(4);
 
   const relatedProducts = (relatedData ?? []) as Product[];
 
