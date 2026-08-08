@@ -101,7 +101,7 @@ if (user && products.length > 0) {
           </div>
 
           <Link
-            href="/shop?category=Mug"
+            href="/shop?category=Hoodie"
             className="hidden items-center gap-2 font-semibold text-purple-600 transition hover:text-purple-700 sm:flex"
           >
             View All
@@ -235,7 +235,7 @@ if (user && products.length > 0) {
         )}
 
         <Link
-          href="/shop?category=Mug"
+          href="/shop?category=Hoodie"
           className="mt-8 flex items-center justify-center gap-2 rounded-xl border border-purple-200 bg-white py-3 font-semibold text-purple-600 sm:hidden"
         >
           View All Hoodies

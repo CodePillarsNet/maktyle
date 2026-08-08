@@ -15,6 +15,7 @@ import {
   Smartphone,
   PanelTopBottomDashed,
   Milk,
+  Clock,
 } from "lucide-react";
 
 import { createClient } from "@/lib/supabase/server";
@@ -107,6 +108,16 @@ const categories = [
     name: "Keychains",
     value: "Keychain",
     icon: KeyRound,
+  },
+  {
+    name: "Clocks",
+    value: "Clock",
+    icon: Clock,
+  },
+  {
+    name: "Hoodies",
+    value: "Hoodie",
+    icon: Shirt,
   },
 ];
 
