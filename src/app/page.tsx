@@ -2,6 +2,8 @@
 import BottomFeatures from "@/components/BottomFeatures";
 import Categories from "@/components/Categories";
 import CustomBottles from "@/components/CustomBottles";
+import CustomClocks from "@/components/CustomClocks";
+import CustomHoodies from "@/components/CustomHoodies";
 import CustomKeychains from "@/components/CustomKeychains";
 import CustomLamps from "@/components/CustomLamps";
 import CustomMugs from "@/components/CustomMugs";
@@ -37,6 +39,8 @@ export default function HomePage() {
       <CustomTshirts />
       <CustomBottles />
       <CustomKeychains />
+      <CustomClocks />
+      <CustomHoodies />
     </>
   );
 }
