@@ -85,6 +85,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <GoogleTagManager gtmId="GTM-PX7GB3L4" />
+      <GoogleTagManager gtmId="GTM-TH2FLZ28" />
       <body className="min-h-full flex flex-col">
         <Navbar />
         <NextTopLoader
