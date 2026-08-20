@@ -4,7 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import NextTopLoader from "nextjs-toploader";
-import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -94,6 +94,7 @@ export default function RootLayout({
         {children}
         <Footer />
         </body>
+        <GoogleAnalytics gaId="G-YLLC47H69G" />
     </html>
   );
 }
